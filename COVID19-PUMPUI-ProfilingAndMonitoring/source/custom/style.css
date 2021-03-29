@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #e1e1e1; }
+
+#myNavbar {
+  background-color: #015DD6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  #myNavbar .navbar-brand {
+    color: #fff;
+    letter-spacing: 0.06rem; }
+  #myNavbar .navbar-collapse ul li a {
+    letter-spacing: 0.06rem;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+    #myNavbar .navbar-collapse ul li a:hover {
+      border-radius: 13px 1px 13px 1px;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding-bottom: 9px;
+      border-bottom: 2px solid orange; }
+    #myNavbar .navbar-collapse ul li a:focus {
+      border-radius: 13px 1px 13px 1px;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-bottom: 2px solid orange; }
+
+#home .jumbotron {
+  margin-top: 130px;
+  margin-bottom: 80px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #fff; }
+  #home .jumbotron h2 {
+    font-weight: bold;
+    letter-spacing: 0.08rem; }
+  #home .jumbotron h3 {
+    letter-spacing: 0.08rem; }
+  #home .jumbotron h4 {
+    font-size: 15px;
+    padding-top: 10px;
+    letter-spacing: 0.08rem; }
+  #home .jumbotron .btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #015DD6;
+    border: 1px solid #015DD6;
+    border-radius: 2px; }
+    #home .jumbotron .btn:hover {
+      border-radius: 13px 1px 13px 1px !important;
+      border-bottom: 2px solid orange;
+      margin-bottom: -1px; }
+
+.about {
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #fff; }
+  .about h3 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #015DD6;
+    letter-spacing: 0.07rem;
+    display: block;
+    width: 133px;
+    font-weight: bold;
+    font-size: 15px; }
+  .about p {
+    text-align: justify; }
+
+.contact {
+  height: 100%;
+  font-weight: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f6755e; }
+  .contact h4 {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.08rem; }
+  .contact .btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #015DD6;
+    border: 1px solid #015DD6;
+    border-radius: 2px; }
+    .contact .btn:hover {
+      border-radius: 13px 1px 13px 1px !important;
+      border-bottom: 2px solid orange;
+      margin-bottom: -1px; }
+
+.reservation {
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #1F2933; }
+  .reservation h3 {
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #015DD6;
+    letter-spacing: 0.09rem;
+    display: block;
+    width: 180px;
+    font-size: 15px; }
+  .reservation h4 {
+    color: #fff;
+    letter-spacing: 0.08rem;
+    margin-top: 50px;
+    font-weight: 100; }
+  .reservation .personal_info, .reservation .user_confirm {
+    margin-top: 30px; }
+    .reservation .personal_info .form-group, .reservation .user_confirm .form-group {
+      margin-top: -5px; }
+    .reservation .personal_info input, .reservation .personal_info select, .reservation .user_confirm input, .reservation .user_confirm select {
+      border: 1px solid #fff;
+      box-shadow: none;
+      height: 40px;
+      border-radius: 1px;
+      outline: none; }
+  .reservation .btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #015DD6;
+    border: 1px solid #015DD6;
+    border-radius: 2px;
+    letter-spacing: 0.08rem; }
+    .reservation .btn:hover {
+      border-radius: 13px 1px 13px 1px !important;
+      border-bottom: 2px solid orange;
+      margin-bottom: -1px; }
+
+.reservation_sign {
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff; }
+  .reservation_sign h4 {
+    font-size: 15px;
+    padding-top: 10px;
+    letter-spacing: 0.08rem; }
+  .reservation_sign .btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #015DD6;
+    border: 1px solid #015DD6;
+    border-radius: 2px; }
+    .reservation_sign .btn:hover {
+      border-radius: 13px 1px 13px 1px !important;
+      border-bottom: 2px solid orange;
+      margin-bottom: -1px; }
+
+.footer {
+  height: 100%;
+  font-weight: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #1D2B37; }
+  .footer h3 {
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #015DD6;
+    letter-spacing: 0.09rem;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase; }
+  .footer #contact {
+    width: 165px; }
+  .footer #inquire {
+    width: 230px; }
+  .footer #dev {
+    width: 160px; }
+  .footer .contact_icon, .footer .message, .footer .developer {
+    margin-top: 50px; }
+    .footer .contact_icon h5, .footer .message h5, .footer .developer h5 {
+      color: #e7e7e7;
+      letter-spacing: 0.08rem; }
+    .footer .contact_icon .form-group, .footer .message .form-group, .footer .developer .form-group {
+      margin-top: -5px; }
+    .footer .contact_icon input, .footer .contact_icon textarea, .footer .message input, .footer .message textarea, .footer .developer input, .footer .developer textarea {
+      border: 1px solid #fff;
+      box-shadow: none;
+      border-radius: 1px;
+      outline: none; }
+    .footer .contact_icon input, .footer .message input, .footer .developer input {
+      height: 40px; }
+    .footer .contact_icon h4, .footer .contact_icon i, .footer .message h4, .footer .message i, .footer .developer h4, .footer .developer i {
+      color: #e7e7e7;
+      letter-spacing: 0.08rem; }
+  .footer .developer i, .footer .contact_icon i {
+    background-color: orange;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    padding: 8px 9px;
+    margin-right: 10px; }
+  .footer .btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #015DD6;
+    border: 1px solid #015DD6;
+    border-radius: 2px;
+    letter-spacing: 0.08rem; }
+    .footer .btn:hover {
+      border-radius: 13px 1px 13px 1px !important;
+      border-bottom: 2px solid orange;
+      margin-bottom: -1px; }
+  .footer p {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 0.08rem; }
+
+.sign-in, .sign-up {
+  margin-top: 100px; }
+  .sign-in h4, .sign-up h4 {
+    letter-spacing: 0.08rem;
+    font-size: 24px; }
+  .sign-in .user, .sign-in .personal_info, .sign-in .user_confirm, .sign-up .user, .sign-up .personal_info, .sign-up .user_confirm {
+    margin-top: 50px; }
+    .sign-in .user .form-group, .sign-in .personal_info .form-group, .sign-in .user_confirm .form-group, .sign-up .user .form-group, .sign-up .personal_info .form-group, .sign-up .user_confirm .form-group {
+      margin-top: -10px; }
+    .sign-in .user input, .sign-in .user select, .sign-in .personal_info input, .sign-in .personal_info select, .sign-in .user_confirm input, .sign-in .user_confirm select, .sign-up .user input, .sign-up .user select, .sign-up .personal_info input, .sign-up .personal_info select, .sign-up .user_confirm input, .sign-up .user_confirm select {
+      border: 1px solid rgba(1, 93, 214, 0.3);
+      box-shadow: none;
+      border-radius: 2px;
+      outline: none;
+      height: 40px;
+      margin-top: -5px; }
+    .sign-in .user label, .sign-in .personal_info label, .sign-in .user_confirm label, .sign-up .user label, .sign-up .personal_info label, .sign-up .user_confirm label {
+      font-weight: 500;
+      letter-spacing: 0.08rem; }
+  .sign-in .btn, .sign-up .btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #015DD6;
+    border: 1px solid #015DD6;
+    border-radius: 2px;
+    letter-spacing: 0.08rem;
+    margin-top: 10px;
+    outline: none; }
+    .sign-in .btn:hover, .sign-up .btn:hover {
+      border-radius: 13px 1px 13px 1px !important;
+      border-bottom: 2px solid orange;
+      margin-bottom: -1px;
+      outline: none; }
+  .sign-in p, .sign-up p {
+    padding-top: 40px;
+    letter-spacing: 0.08rem; }
+  @media screen and (max-width: 992px) {
+    .sign-in #history, .sign-in #account, .sign-up #history, .sign-up #account {
+      margin-top: 50px; } }
+
+.checklist {
+  margin-top: 100px; }
+  .checklist h4 {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    letter-spacing: 0.08rem;
+    font-size: 20px; }
+  .checklist .row:nth-child(2) {
+    margin-top: -10px; }
+  .checklist .btn {
+    position: relative;
+    top: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #015DD6;
+    border: 1px solid #015DD6;
+    border-radius: 2px;
+    letter-spacing: 0.08rem;
+    margin-top: 10px;
+    outline: none; }
+    .checklist .btn:hover {
+      border-radius: 13px 1px 13px 1px !important;
+      border-bottom: 2px solid orange;
+      margin-bottom: -1px;
+      outline: none; }
+  .checklist .row {
+    margin-top: 10px; }
+    .checklist .row .col .form-group {
+      margin-top: -10px; }
+    .checklist .row .col:not(:first-child) {
+      padding-left: 0px; }
+    .checklist .row .col input, .checklist .row .col select {
+      border: 1px solid rgba(1, 93, 214, 0.3);
+      box-shadow: none;
+      border-radius: 2px;
+      outline: none;
+      height: 40px;
+      margin-top: -5px; }
+    .checklist .row .col label {
+      font-weight: 100;
+      letter-spacing: 0.08rem; }
+    @media screen and (max-width: 992px) {
+      .checklist .row .col:not(:first-child) {
+        padding-left: 15px; }
+      .checklist .row .form-group .btn {
+        margin-top: 0px;
+        margin-bottom: 20px; } }
+  @media screen and (max-width: 992px) {
+    .checklist .row:nth-child(2) {
+      margin-top: 0px; } }
+  .checklist .table_wrapper {
+    margin-top: 0px;
+    height: 480px;
+    width: 100%;
+    overflow-y: auto;
+    margin-bottom: 20px; }
+  .checklist table#chk-list {
+    width: 1140px;
+    border: 1px solid rgba(0, 0, 0, 0.5); }
+    .checklist table#chk-list thead tr:nth-child(1) > td {
+      font-weight: bold;
+      background-color: rgba(1, 93, 214, 0.8);
+      color: #fff;
+      text-transform: uppercase; }
+    .checklist table#chk-list thead tr > th {
+      font-size: 25px;
+      letter-spacing: 0.1rem;
+      background-color: rgba(255, 0, 0, 0.5);
+      color: #fff; }
+    .checklist table#chk-list thead tr > td, .checklist table#chk-list thead th {
+      padding: 4px 4px;
+      text-align: center;
+      letter-spacing: 0.06rem;
+      background-color: rgba(255, 230, 0, 0.4); }
+    .checklist table#chk-list tbody#lists > tr > td {
+      background-color: white; }
+      .checklist table#chk-list tbody#lists > tr > td table#days tr > td {
+        text-align: center;
+        padding: 4px 4px;
+        border-right: 1px solid rgba(0, 0, 0, 0.8); }
+      .checklist table#chk-list tbody#lists > tr > td table#days tr:nth-child(1) td {
+        text-align: center;
+        border-right: 1px solid rgba(0, 0, 0, 0.5); }
+      .checklist table#chk-list tbody#lists > tr > td table#days tr:nth-child(1) td:nth-child(1) {
+        background-color: #00ff40; }
+      .checklist table#chk-list tbody#lists > tr > td table#days tr:nth-child(1) td:nth-child(2) {
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 94, 0, 0.5); }
+      .checklist table#chk-list tbody#lists > tr > td table#days tr:nth-child(2) > td {
+        background-color: rgba(255, 94, 0, 0.5); }
+      .checklist table#chk-list tbody#lists > tr > td table#symptoms tr > td {
+        text-align: center;
+        padding: 3px 3px;
+        outline: none !important; }
+        .checklist table#chk-list tbody#lists > tr > td table#symptoms tr > td .parent {
+          position: relative; }
+          .checklist table#chk-list tbody#lists > tr > td table#symptoms tr > td .parent .first-child input {
+            visibility: hidden; }
+          .checklist table#chk-list tbody#lists > tr > td table#symptoms tr > td .parent .second-child {
+            display: none; }
+          .checklist table#chk-list tbody#lists > tr > td table#symptoms tr > td .parent .second-child img {
+            position: relative;
+            top: 0px;
+            right: -13rem;
+            height: 22px;
+            width: auto;
+            cursor: pointer; }
+        .checklist table#chk-list tbody#lists > tr > td table#symptoms tr > td .parent.toggle .first-child {
+          display: none; }
+        .checklist table#chk-list tbody#lists > tr > td table#symptoms tr > td .parent.toggle .second-child {
+          display: inline; }
+      .checklist table#chk-list tbody#lists > tr > td table#symptoms tr:nth-child(1) > td {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5) !important; }
+    .checklist table#chk-list tbody tr:nth-child(10) td table#days tr:nth-child(1) > td, .checklist table#chk-list tbody tr:nth-child(11) td table#days tr:nth-child(1) > td, .checklist table#chk-list tbody tr:nth-child(12) td table#days tr:nth-child(1) > td, .checklist table#chk-list tbody tr:nth-child(13) td table#days tr:nth-child(1) > td, .checklist table#chk-list tbody tr:nth-child(14) td table#days tr:nth-child(1) > td {
+      text-align: center;
+      padding: 4px 0px; }
+  .checklist p {
+    letter-spacing: 0.08rem; }
+
+.pum-lists {
+  margin-top: 100px; }
+  .pum-lists #dt_wrapper .row:nth-child(1) > .col-sm-6 #dt_length > label > select, .pum-lists #dt_wrapper .row:nth-child(1) > .col-sm-6 #dt_filter > label > input {
+    border: 1px solid rgba(1, 93, 214, 0.3);
+    box-shadow: none;
+    border-radius: 2px;
+    outline: none;
+    height: 40px; }
+  .pum-lists #dt_wrapper .row:nth-child(3) > .col-sm-7 {
+    margin-top: -10px; }
+    .pum-lists #dt_wrapper .row:nth-child(3) > .col-sm-7 #dt_paginate > .pagination .paginate_button {
+      padding-left: 5px;
+      padding-right: 5px; }
+      .pum-lists #dt_wrapper .row:nth-child(3) > .col-sm-7 #dt_paginate > .pagination .paginate_button a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: #015DD6;
+        border: 1px solid #015DD6;
+        border-radius: 2px;
+        letter-spacing: 0.08rem;
+        color: #fff;
+        outline: none; }
+        .pum-lists #dt_wrapper .row:nth-child(3) > .col-sm-7 #dt_paginate > .pagination .paginate_button a:hover {
+          border-radius: 13px 1px 13px 1px !important;
+          border-bottom: 2px solid orange;
+          margin-bottom: -1px; }
+  .pum-lists .table thead > tr > td {
+    background-color: rgba(238, 18, 18, 0.5);
+    color: #fff; }
+  .pum-lists .table tbody > .fold > td .fold-content > table#2nd_tbl thead > #first_tr > .first_td {
+    font-weight: bold;
+    background-color: rgba(1, 93, 214, 0.8) !important;
+    color: #fff;
+    text-transform: uppercase; }
+    .pum-lists .table tbody > .fold > td .fold-content > table#2nd_tbl thead > #first_tr > .first_td tr > th {
+      font-size: 25px;
+      letter-spacing: 0.1rem;
+      background-color: rgba(255, 0, 0, 0.5);
+      color: #fff; }
+    .pum-lists .table tbody > .fold > td .fold-content > table#2nd_tbl thead > #first_tr > .first_td tr > td, .pum-lists .table tbody > .fold > td .fold-content > table#2nd_tbl thead > #first_tr > .first_td th {
+      padding: 4px 4px;
+      text-align: center;
+      letter-spacing: 0.06rem;
+      background-color: rgba(255, 230, 0, 0.7); }
+
+.fold-content > table#2nd_tbl#chk-list thead #first_tr > .first_td {
+  font-weight: bold;
+  background-color: rgba(1, 93, 214, 0.8) !important;
+  color: #fff;
+  text-transform: uppercase; }
+.fold-content > table#2nd_tbl#chk-list thead tr > th {
+  font-size: 25px;
+  letter-spacing: 0.1rem;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff; }
+.fold-content > table#2nd_tbl#chk-list thead tr > td, .fold-content > table#2nd_tbl#chk-list thead th {
+  padding: 4px 4px;
+  text-align: center;
+  letter-spacing: 0.06rem;
+  background-color: rgba(255, 230, 0, 0.7); }
+
+/*# sourceMappingURL=style.css.map */

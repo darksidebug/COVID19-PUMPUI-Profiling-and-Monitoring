@@ -1,0 +1,99 @@
+
+@import url('../font-awesome-4.7.0/css/font-awesome.css');
+
+.pcs:after { content: " pcs"; }
+.cur:before { content: "$"; }
+.per:after { content: "%"; }
+// --------------------------
+* { box-sizing: border-box; }
+body { padding: .2em 2em; }
+// Table
+table {
+  width: 100%;
+  th { text-align: left; border-bottom: 1px solid #000;}
+  th, td { padding: .4em; }
+}
+
+// fold table 
+table.fold-table {
+  > tbody {
+    // view segment
+    >tr{
+      background: #b9b9b9;
+    }
+    > tr.view {
+      td, th {cursor: pointer;}
+      td:first-child, 
+      th:first-child { 
+        position: relative;
+        padding-left:20px;
+        &:before {
+          position: absolute;
+          top:50%; left:5px;
+          width: 9px; height: 16px;
+          margin-top: -8px;
+          font: 16px fontawesome;
+          color: #000;
+          content: "\f0d7";
+          transition: all .3s ease;
+        }
+      }
+      &:nth-child(4n-1) { background: #eee; }
+      &:hover { background: #a8a8a8; }
+      &.open {
+        background: tomato;
+        color: white;
+        td:first-child, th:first-child {
+          &:before {
+            transform: rotate(-180deg);
+            color: #000;
+          }
+        }
+      }
+    }
+  
+    // fold segment
+    > tr.fold {
+      display: none;
+      &.open { display:table-row; }
+    }
+  }
+}
+
+
+
+// fold content 
+.fold-content {
+  padding: .5em;
+  height: 250px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  // border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 8px;
+  margin-right: 8px;
+  box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.1);
+  h4 { 
+    margin-top:-2px; 
+  }
+  > table {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    thead{
+      background: rgba(3, 5, 112, 0.6);
+    }
+    > tbody#list {
+      background-color: #e7e7e7f6;
+      // tr:nth-child(even) {
+      //   background-color: #e7e7e7a9;
+      // }
+      // tr:nth-child(odd) {
+      //   background-color: #e7e7e7f6;
+      // }
+      // tr:hover{
+      //   cursor: pointer;
+      //   background-color: #d8d7d7ce;
+      // }
+
+    }
+  }
+  
+}
